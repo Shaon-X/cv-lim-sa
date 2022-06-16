@@ -1,0 +1,271 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: papayawhip;
+}
+
+h1{
+  width: 90%;
+  margin:auto;
+  font-weight: bold;
+  font-size: 100px;
+  padding-top: 50px;
+  color: white;
+  text-shadow: -2px -2px 10px tomato, -2px -2px 5px purple;
+  text-align: center;
+  position: relative;
+  right: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navi{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: gainsboro;
+  border-bottom: salmon solid 2px;
+  z-index: 10;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.navi a{
+  width: auto;
+  float: left;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 2px solid gainsboro;
+  border-radius: 3px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  font-family: monospace;
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nave a:link, .navi a:visited{
+
+}
+
+.navi a:hover{
+  background-color: #c2bdbd;
+  color: #242222;
+}
+
+.navi a:active{
+  background-color: #9f9797;
+}
+
+.selfie{
+  width: 250px;
+  margin-left: 15%;
+  margin-top: 70px;
+  margin-right: 100px;
+  display: block;
+  border: inset 10px tomato;
+  border-radius: 100px;
+  float: left;
+  padding: 0 0 0 0;
+  margin-bottom: 50px;
+}
+
+.stag1{
+  display: block;
+  width: 20%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: sticky;
+  bottom: 0px;
+  margin-left: 2.5%;
+  margin-right: auto;
+  margin-bottom: 0;
+  z-index: 1;
+  text-align: center;
+  background-color: orange;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px darkred, 2px 2px 5px yellow;
+}
+
+.stag2{
+  display: block;
+  width: 20%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: sticky;
+  bottom: 0px;
+  margin-left: 23%;
+  margin-right: auto;
+  margin-bottom: 0;
+  z-index: 1;
+  text-align: center;
+  background-color: deepskyblue;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px dodgerblue, 2px 2px 5px purple;
+}
+
+.bbox{
+  width: 95%;
+  margin: auto;
+  margin-top: 0px;
+  border-top: 0px;
+  border-radius: 50px;
+  margin-bottom: 100px;
+}
+
+.bbox p{
+  font-family: "lucida sans";
+  margin-left: 10%;
+  font-size: 25px;
+  color: white;
+  text-shadow: -2px 2px indigo;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.textBox1{
+  width: 85%;
+  margin:auto;
+  margin-top: 20px;
+  padding-top: 40px;
+  text-shadow: 1px 1px 5px grey;
+}
+
+.text1{
+  margin:auto;
+  width: 90%;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  right: 50px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.papyrusFont{
+  font-size: 30px;
+  font-family: papyrus;
+  text-align: center;
+}
+
+.box{
+  background-color: peru;
+  border-radius: 50px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.box img{
+  width: 40%;
+  border-radius: 30px;
+  image-resolution: 300dpi;
+  margin-bottom: 5%;
+}
+
+.box p, .box dd, .box dt, .box table{
+  font-family: "lucida sans";
+  margin-left: 10%;
+  font-size: 25px;
+  color: white;
+  text-shadow: -2px 2px indigo;
+}
+
+.circleList{
+  font-family: "lucida sans";
+  margin-left: 10%;
+  font-size: 25px;
+  color: white;
+  text-shadow: -2px 2px indigo;
+  padding-bottom: 50px;
+}
+
+
+.box table td{
+    vertical-align: top;
+}
+
+.tableRow{
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-shadow: -2px 2px indigo, -2px 2px 5px red;
+}
+
+.boxShadow{
+  width: 100%;
+  height: 100%;
+  background-color: saddlebrown;
+  border-radius: 50px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: -5
+}
+
+.footer{
+  width: 100%;
+  height: 20vw;
+  border-top: white inset 5px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.backG{
+  width: 100%;
+  height: 100%;
+  background-color: steelblue;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -10;
+}
+
+.icon{
+  width: 25%;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  left: 6.25%;
+  z-index: -3;
+}
+
+.icon img{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+.icon p{
+  text-align: center;
+  font-size: 2vw;
+  font-family: impact;
+  color: white;
+  text-shadow: -2px 0px black, 2px 0px black, 0px 2px black, 0px -2px black, -2px -2px black, 2px -2px black, -2px 2px black, 2px 2px black;
+  margin-top: 5%;
+}
+
+.threeImg{
+  width: 30%;
+  padding: 0 0 0 0;
+  margin-left: 2.5%;
+  margin-right: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  vertical-align: middle;
+}
