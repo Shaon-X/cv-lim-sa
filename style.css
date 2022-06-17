@@ -174,7 +174,7 @@ a{
 .box img{
   width: 40%;
   border-radius: 30px;
-  image-resolution: 300dpi;
+  image-resolution: 1dpi;
   margin-bottom: 5%;
 }
 
